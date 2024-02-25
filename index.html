@@ -128,18 +128,24 @@
                 type="text"
                 placeholder="Nombre Apellido"
               />
-              <label for="" class="form__label">Número de comensales *</label>
+              <label for="number" class="form__label"
+                >Número de comensales *</label
+              >
               <input
+                id="number"
                 class="form__input"
                 type="number"
                 min="1"
                 max="8"
                 placeholder="1-8"
               />
-              <label for="" class="form__label">Fecha y hora *</label>
-              <input class="form__input" type="date" />
-              <label for="" class="form__label">Tu correo electrónico *</label>
+              <label for="date" class="form__label">Fecha y hora *</label>
+              <input id="date" class="form__input" type="date" />
+              <label for="email" class="form__label"
+                >Tu correo electrónico *</label
+              >
               <input
+                id="email"
                 class="form__input"
                 type="email"
                 placeholder="email@email.com"
@@ -148,10 +154,12 @@
                 Reservar una mesa
               </button>
 
-              <label for="" class="form__label">
-                <input class="form__checkbox" type="checkbox" />
-                Acepto los términos de uso
-              </label>
+              <div class="form__checkbox-container">
+                <label for="checkbox" class="form__label">
+                  Acepto los términos de uso</label
+                >
+                <input class="form__checkbox" type="checkbox" id="checkbox" />
+              </div>
             </fieldset>
           </form>
         </section>
