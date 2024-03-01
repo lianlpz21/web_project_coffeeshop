@@ -9,7 +9,7 @@
     <title>Cafetería</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Inter -->
+
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
       rel="stylesheet"
@@ -22,7 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
       rel="stylesheet"
     />
-    <!-- Noto Serif -->
+
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
@@ -124,6 +124,7 @@
               <label for="name" class="form__label"
                 >Nombre *
                 <input
+                  required
                   type="text"
                   class="form__input"
                   id="name"
@@ -133,6 +134,7 @@
               <label for="number" class="form__label"
                 >Número de comensales *
                 <input
+                  required
                   type="number"
                   class="form__input"
                   id="number"
@@ -141,11 +143,12 @@
               </label>
               <label for="date" class="form__label">
                 Fecha y hora *
-                <input type="date" class="form__input" id="date" />
+                <input required type="date" class="form__input" id="date" />
               </label>
               <label for="email" class="form__label">
                 Tu correo electrónico *
                 <input
+                  required
                   type="email"
                   class="form__input"
                   id="email"
@@ -155,7 +158,11 @@
               <button class="form__button">Reservar una mesa</button>
               <label class="form__label" for="checkbox">
                 Acepto los términos de uso
-                <input type="checkbox" class="form__checkbox" id="checkbox"
+                <input
+                  required
+                  type="checkbox"
+                  class="form__checkbox"
+                  id="checkbox"
               /></label>
             </fieldset>
           </form>

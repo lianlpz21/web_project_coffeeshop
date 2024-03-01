@@ -6,8 +6,7 @@
 .footer__content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  align-content: center;
+  align-items: flex-start;
   padding: 60px 100px 108px 80px;
 }
 
@@ -47,6 +46,10 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .footer__social-icon {
   width: 16px;
