@@ -39,6 +39,11 @@
   padding-bottom: 215px;
 }
 
+.recipes__paragraph-position {
+  display: flex;
+  justify-content: space-between;
+}
+
 .recipes__video-paragraph {
   font-family: "Inter", "Times New Roman", sans-serif;
   font-style: normal;
